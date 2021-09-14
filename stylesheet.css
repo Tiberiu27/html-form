@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ECEEF1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 10%;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#subtitle {
+    color: #393A3D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+#phone-disclaimer {
+    font-size: 10px;
+    color: #444;
+    padding: 5px 0;
+    margin: 0;
+}
+
+#submit {
+    width: 360px;
+    height: 44px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    background: #0077C5;
+
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    border-color: #0077C5;
+
+    color: white;
+    font-size: 15px;
+    line-height: 1.42;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#terms-container {
+    width: 320px;
+    text-align: center;
+}
+
+#terms {
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+}
+
+a {
+    color: rgb(137, 171, 235);
+    text-decoration: none;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+fieldset label {
+    font-style: 14px;
+    font-weight: normal;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 25px;
+    color: #404040;
+    padding-bottom: 6px;
+}
+
+fieldset input {
+    width: 360px;
+    height: 34px;
+    border: 1px solid #C1C5C8;
+    padding-inline: 10px;
+    font-size: 15px;
+}
+
+fieldset input:focus {
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #27a5fa;
+
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 0.5px solid rgba(81, 203, 238, 1);
+}
+
